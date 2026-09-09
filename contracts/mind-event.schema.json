@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ghostatlas.local/schemas/mind-event.schema.json",
+  "title": "MindEvent",
+  "type": "object",
+  "required": ["event_id", "trace_id", "event_type", "source_organ", "occurred_at", "payload"],
+  "properties": {
+    "event_id": {"type": "string", "minLength": 1},
+    "trace_id": {"type": "string", "minLength": 1},
+    "causation_id": {"type": ["string", "null"]},
+    "correlation_id": {"type": ["string", "null"]},
+    "event_type": {"type": "string", "minLength": 1},
+    "source_organ": {"type": "string", "minLength": 1},
+    "target_organ": {"type": ["string", "null"]},
+    "occurred_at": {"type": "string", "format": "date-time"},
+    "payload": {"type": "object"},
+    "policy_labels": {"type": "array", "items": {"type": "string"}},
+    "evidence_refs": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}
