@@ -1,0 +1,25 @@
+schema: ghost-atlas.hypernet.node/v1
+node_id: mind-as-os
+repository: Atlas-Ascend/Mind-As-OS-
+organism_root: Atlas-Ascend/VISHVARUPA-Software-Hardware-Organism
+version: 0.1.0
+lifecycle: active-candidate
+plane: cognition-world-model
+canonical_role: cognitive-systems-architecture-and-human-runtime-research-substrate
+authority:
+  owns: [cognitive-architecture-models, human-runtime-models, mind-as-os-theory, cognitive-system-genealogy]
+  does_not_own: [executive-authorization, autonomous-execution, diagnosis, finish-truth]
+upstream: [Atlas-Ascend/Ghost-Atlas-Research-Institute, Atlas-Ascend/thoth-archive-engine, Atlas-Ascend/GARI-]
+downstream: [Atlas-Ascend/Atlas-Mind-LLM, Atlas-Ascend/RHSIE-3.3, Atlas-Ascend/Navi-3.3---Governance-Cognitive-Pattern-Recognition, Atlas-Ascend/MythOS, Atlas-Ascend/Cipher-9.9]
+integration:
+  work_substrate: Atlas-Ascend/Packet-OS
+  orchestration: Atlas-Ascend/workforce-spine
+  io: Atlas-Ascend/Crowngrid
+  quality: Atlas-Ascend/SECA
+  security: Atlas-Ascend/Medusa-Sovereign-Security
+  memory: Atlas-Ascend/thoth-archive-engine
+  failure: Atlas-Ascend/PROMETHEUS-V-1.1.1
+proof:
+  runtime_state: unverified
+  theory_is_not_runtime_proof: true
+  repository_presence_is_not_runtime_proof: true
