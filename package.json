@@ -6,10 +6,11 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "test": "node --test dist/**/*.test.js",
+    "test": "node --test dist/*.test.js",
     "check": "npm run typecheck && npm run build && npm test"
   },
   "devDependencies": {
+    "@types/node": "^24.3.1",
     "typescript": "^5.9.2"
   }
 }
