@@ -1,0 +1,23 @@
+{
+  "schema":"mind-as-os/canon-registry/v0.3",
+  "truth_law":["MENTION != IMPLEMENTATION","DESIGN != RUNTIME","HISTORICAL_PROOF != CURRENT_PROOF","LEGACY_DONOR != CANONICAL_AUTHORITY","ALIAS != DISTINCT_SYSTEM"],
+  "systems":[
+    {"id":"oddec","name":"ODDEC","status":"CANONICAL_CURRENT","disciplines":["02","05"],"role":"decision_action_transaction","authority":"bounded_lifecycle"},
+    {"id":"aura","name":"AURA","status":"CANONICAL_CURRENT","disciplines":["02","05"],"role":"inner_telemetry","authority":"advisory_read"},
+    {"id":"sage","name":"SAGE","status":"CANONICAL_CURRENT","disciplines":["02","05"],"role":"relational_telemetry","authority":"advisory_read"},
+    {"id":"navi","name":"NAVI","status":"CANONICAL_CURRENT","disciplines":["02","04"],"role":"navigation_interpretation","authority":"advisory_governance"},
+    {"id":"seven","name":"SEVEN","status":"CANONICAL_CURRENT","disciplines":["02","05"],"role":"recursive_state_orientation","authority":"advisory_state"},
+    {"id":"ali9","name":"ALI-9","status":"CANONICAL_CURRENT","disciplines":["02","05"],"role":"mature_capacity_synthesis","authority":"advisory_posture"},
+    {"id":"nhcm","name":"NHCM","status":"CANONICAL_CURRENT","disciplines":["01","02"],"role":"hierarchical_cognition_ontology","authority":"classification"},
+    {"id":"csa95","name":"CSA-95","status":"CANONICAL_HISTORICAL","disciplines":["01","02"],"role":"cognitive_genome_architecture","authority":"research_model"},
+    {"id":"rainbow-body","name":"Rainbow Body","status":"CANONICAL_CURRENT","disciplines":["02","05"],"role":"integrated_coherence","authority":"telemetry_only"},
+    {"id":"rainbow-council","name":"Rainbow Council","status":"CANON_CANDIDATE","disciplines":["02","03"],"role":"polycentric_advisory_surface","authority":"advisory_only"},
+    {"id":"arcadia","name":"ARCADIA","status":"MULTI_ROLE_SPLIT","disciplines":["02","04"],"role":"governance_orchestration_lineage","authority":"no_implicit_execution"},
+    {"id":"pantheon","name":"PANTHEON","status":"MULTI_ROLE_SPLIT","disciplines":["02","04"],"role":"governance_orchestration_lineage","authority":"advisory_unless_explicit"},
+    {"id":"prometheus","name":"PROMETHEUS","status":"MULTI_ROLE_SPLIT","disciplines":["04"],"role":"self_proving_engineering_orchestrator","authority":"machine_governed"},
+    {"id":"twelve-lexicons","name":"Twelve Lexicons","status":"UNRESOLVED_LINEAGE","disciplines":["01","02"],"role":"semantic_translation_claim","authority":"none"},
+    {"id":"orpheus","name":"Orpheus","status":"UNRESOLVED_LINEAGE","disciplines":["01","02"],"role":"historical_hep_claim","authority":"none"},
+    {"id":"buddha","name":"Buddha","status":"UNRESOLVED_LINEAGE","disciplines":["01","02"],"role":"historical_hep_claim","authority":"none"},
+    {"id":"calypso","name":"Calypso","status":"UNRESOLVED_LINEAGE","disciplines":["01","02"],"role":"historical_hep_claim","authority":"none"}
+  ]
+}

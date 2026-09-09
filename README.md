@@ -1,93 +1,47 @@
 # Mind As OS
 
-**Canonical Ghost Atlas human-cognitive + machine-control operating-system architecture.**
+**Canonical Ghost Atlas cognitive + human-systems operating architecture.**
 
-Mind As OS models the mind and the Ghost Atlas organism as a governed, inspectable, event-driven operating system. It preserves two coupled but distinct loops:
+Mind As OS v0.3 separates research theory, cognitive systems architecture, whole-human systems architecture, human systems engineering, and live human runtime instead of flattening them into one stack.
 
-1. **Human cognitive runtime** — perception, attention, emotion, symbol, memory, identity state, Observer/Cartographer/Architect/Creator, AURA, SAGE, SEVEN, ALI-9, Tri-Mode, ODDEC, Stewardship, Rainbow Body, NHCM/CSA/Human Runtime Kernel, Cognitive Genome Theory, Cipher, Twelve Lexicons, Rainbow Council and related self-regulation surfaces.
-2. **Estate execution runtime** — Atlas Mind, JANUS/ODIN, Packet OS, Workforce Spine, MetaForge, CrownGrid, EDEN, SECA/DevOS, Medusa, THOTH and ProofGrid.
-
-The first loop models **how meaning, state, mode and intended action are formed**. The second controls **what the software organism is actually authorized to execute and how completion is proven**.
-
-## Canonical cognitive loop
+## Disciplinary spine
 
 ```text
-SIGNAL
-  ↓
-PERCEPTION → ATTENTION → EMOTION → SYMBOL → MEMORY → IDENTITY STATE
-  ↓
-OBSERVER → CARTOGRAPHER → ARCHITECT → CREATOR
-  ↓
-AURA / SAGE / SEVEN / ALI-9
-  ↓
-TRI-MODE + ODDEC
-  ↓
-STEWARDSHIP → MEDUSA
-  ↓
-BEHAVIOR / ACTION
-  ↓
-THOTH MEMORY + FEEDBACK
-  ↓
-COGNITIVE GENOME / HUMAN RUNTIME UPDATE
-  ↓
-RAINBOW BODY COHERENCE
-  ↓
-NEXT SIGNAL
+01_RESEARCH_THEORY/
+02_COGNITIVE_SYSTEMS_ARCHITECTURE/
+03_HUMAN_SYSTEMS_ARCHITECTURE/
+04_HUMAN_SYSTEMS_ENGINEERING/
+05_HUMAN_RUNTIME/
+CANON_GENEALOGY/
 ```
 
-## Canonical estate execution loop
+## Prime distinction
+
+`THEORY != ARCHITECTURE != ENGINEERING != RUNTIME != AUTHORITY != PROOF`
+
+A symbolic, emotional, archetypal, spiritual, psychological, coherence or interpretive state cannot grant machine write authority. Human intent crosses into estate execution only through explicit JANUS/ODIN + capability authorization.
+
+## Current closed loop
 
 ```text
-Signal / Intent
-  ↓
-Atlas Mind cognition
-  ↓
-JANUS / ODIN executive authorization
-  ↓
-Packet OS
-  ↓
-Workforce Spine / MetaForge / CrownGrid / EDEN
-  ↓
-SECA + DevOS verification
-  ↓
-Medusa boundary review where required
-  ↓
-ProofGrid receipt
-  ↓
-THOTH durable state / next cycle
+WORLD / HUMAN SIGNAL
+  -> Human Runtime
+  -> Cognitive Systems Architecture
+  -> governed intent
+  -> Atlas Mind
+  -> JANUS / ODIN
+  -> Packet OS
+  -> Workforce Spine / MetaForge / CrownGrid / EDEN
+  -> SECA / DevOS / Medusa
+  -> ProofGrid
+  -> THOTH
+  -> Human Runtime / next signal
 ```
 
-## Key organs preserved
+## Canon method
 
-- **Tri-Mode Reality:** Observer sees, Architect models, Creator commits.
-- **ODDEC:** Observe → Design → (Dis)Engage → Create.
-- **AURA:** inner telemetry / metacognition / state recognition.
-- **SAGE:** relational telemetry; See → Assess → Gauge → Engage.
-- **SEVEN:** recursive orientation through Stillpoint, Clarity, Coherence, Intention, Flow, Transcendence and Mastery.
-- **ALI-9:** mature executive/archetypal posture selection without overriding agency.
-- **Rainbow Body:** integrated coherence across presence, pattern and expression; not authority escalation.
-- **THOTH:** memory, lineage and receipts.
-- **NHCM / CSA / Human Runtime Kernel:** ontology and runtime organization for the human cognitive model.
-- **Cognitive Genome Theory / Cipher / Twelve Lexicons:** pattern, translation and symbolic-language surfaces.
-- **Rainbow Council:** polycentric advisory/council surface, not unilateral executive authority.
+This repository consumes the estate's HEP forensic truth law and GARI provenance model. Mention is not implementation; design is not runtime; historical proof is not current proof; legacy donor is not canonical authority; alias is not automatically a distinct system. Unresolved historical systems are retained as unresolved lineage rather than invented into canon.
 
-## Prime invariants
+## Active baseline
 
-1. Human cognitive models do not silently acquire software write authority.
-2. Observer and Architect are non-mutating modes.
-3. Creator commits only through explicit authorization boundaries.
-4. ODDEC always permits disengagement as a legitimate outcome.
-5. Rainbow Body measures coherence, not power, rank or permission.
-6. Memory, identity, policy, execution and verification remain separable.
-7. Every software handoff is inspectable and every mutation has provenance.
-8. No success claim without evidence.
-9. No self-promotion of authority.
-10. Existing Ghost Atlas organs remain addressable; no replacement builds by default.
-
-## Repository contract
-
-This repository carries 16 canonical Build Truth files, cognitive/runtime architecture, typed contracts, capability and permission models, lineage crosswalks, proof requirements and a TypeScript reference implementation.
-
-## Status
-
-**Mind As OS v0.2 — Human Cognitive Stack Convergence.**
+**Mind As OS v0.3 — Full Cognitive Organism / Source Genealogy**
