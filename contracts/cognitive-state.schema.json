@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ghostatlas.local/schemas/cognitive-state.schema.json",
+  "title": "MindAsOSCognitiveState",
+  "type": "object",
+  "required": ["traceId", "mode", "oddecPhase", "sevenState", "coherence", "observedAt"],
+  "properties": {
+    "traceId": {"type": "string", "minLength": 1},
+    "mode": {"enum": ["observer", "cartographer", "architect", "creator"]},
+    "oddecPhase": {"enum": ["observe", "design", "disengage", "create", "complete"]},
+    "sevenState": {"enum": ["stillpoint", "clarity", "coherence", "intention", "flow", "transcendence", "mastery"]},
+    "coherence": {
+      "type": "object",
+      "required": ["presence", "pattern", "expression"],
+      "properties": {
+        "presence": {"type": "number", "minimum": 0, "maximum": 100},
+        "pattern": {"type": "number", "minimum": 0, "maximum": 100},
+        "expression": {"type": "number", "minimum": 0, "maximum": 100}
+      },
+      "additionalProperties": false
+    },
+    "aura": {"type": "object", "additionalProperties": true},
+    "sage": {"type": "object", "additionalProperties": true},
+    "identityState": {"type": "string"},
+    "symbolRefs": {"type": "array", "items": {"type": "string"}},
+    "memoryRefs": {"type": "array", "items": {"type": "string"}},
+    "provenanceRefs": {"type": "array", "items": {"type": "string"}},
+    "observedAt": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": false
+}
